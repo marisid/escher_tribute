@@ -45,12 +45,18 @@ ul.navbar-nav > li {
     transition: background-color 1s;
 }
 
+.nav li {
+  margin-top: 15px;
+  margin-bottom: auto;
+}
+
 .navbar-toggle {
   position: absolute;
   border: none;
-  bottom: 0px;
-  right: 0px;
-  margin-bottom: 10px;
+  top: 50%;
+  transform translateY (-50%);
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 0px;
 }
 
@@ -59,10 +65,7 @@ ul.navbar-nav > li {
   background-color: #A2D800;
 }
 
-.nav li {
-  margin-top: 15px;
-  margin-bottom: auto;
-}
+
 
 .navbar-inverse .navbar-nav > li > a {
   color: #A2D800;
